@@ -58,3 +58,7 @@
   height: 300px;
   background-color: gold;
 }
+
+/* floatよりflexboxの方ができることが多いので、そちらを使う。 */
+/* 最初にリセットCSSを忘れない。content-boxとborder-boxの違いは、width指定した時に、中の要素が変わるか、外側の領域が変わるか
+border-boxが一般的である。 */
