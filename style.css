@@ -253,7 +253,15 @@ a:active {
 
   .nav-list-item {
     width: 100%;
-    display: block;
+    margin: 0 0 10px 0;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
   }
 
   main {
@@ -266,18 +274,6 @@ a:active {
     margin: 0;
   }
 
-  .blog-item {
-    display: block;
-  }
-
-  .main-visual-content {
-    width: 100%;
-  }
-
-  .social {
-    display: none;
-  }
-
   .blog-box {
     padding-left: 2%;
     padding-right: 2%;
@@ -285,6 +281,11 @@ a:active {
 
   .blog-image {
     width: 49%;
+  }
+
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
   }
 
   .sidebar {
@@ -297,6 +298,7 @@ a:active {
     width: 48%;
     padding-top: 48%;
   }
+
   .instagram-box:nth-child(odd) {
     margin-right: 4%;
   }
